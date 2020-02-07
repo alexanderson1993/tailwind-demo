@@ -1,7 +1,12 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {}
   },
-  variants: {},
+  variants: {
+    scale: ["hover"]
+  },
   plugins: [],
-}
+  corePlugins: {
+    scale: true
+  }
+};
